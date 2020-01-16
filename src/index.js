@@ -1,4 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Page from './Page';
-ReactDOM.render(<Page />, document.getElementById('root'));
+import { BrowserRouter as Router } from 'react-router-dom';
+import Page from './pages/Page';
+ReactDOM.render(
+<Router basename={process.env.PUBLIC_URL}><Page/></Router>, document.getElementById('root')
+);

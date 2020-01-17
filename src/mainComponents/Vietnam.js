@@ -11,7 +11,7 @@ const Vietnam = () => {
             <MobileMenu/>
             <DesktopMenu/>
             <Header/>
-            <div>
+            <div className="content">
                 <h1>vietnam</h1>
                 <div className="explore-btn vietnam-btn">
                     <Link to="/more/vietnam">Explore</Link>

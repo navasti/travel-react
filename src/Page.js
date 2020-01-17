@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Page.css';
 import { Switch, Route } from 'react-router-dom';
 import WelcomePage from './mainComponents/WelcomePage';
 import Australia from './mainComponents/Australia';

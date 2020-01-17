@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+html body {
+  font-family: "Chivo", sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+html body a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.explore-btn {
+  font-family: "Charmonman", cursive;
+  text-transform: uppercase;
+}
+
+.welcome-page {
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.welcome-page h1 {
+  font-size: 2.6rem;
+  line-height: 1.4;
+}
+
+.welcome-page .explore-btn {
+  margin-top: 2rem;
+  padding: .6rem 2.5rem .6rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 2rem;
+}
+
+/* Structure components start */
+/* Structure components start */
+/* Main components start */
+/* Main components end */
+/* More components start */
+/* More components start */
+/*# sourceMappingURL=Page.css.map */

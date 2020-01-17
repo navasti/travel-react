@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$body-ff:'Chivo', sans-serif;
+$button-ff: 'Charmonman', cursive;
+
+html{
+    font-size: 10px;
+    body{
+        font-family: $body-ff;
+        color: #fff;
+        letter-spacing: 1px;
+        a{
+            text-decoration: none;
+            color: #fff;
+            display: block;
+        }
+    }
+}
+
+.explore-btn{
+    font-family: $button-ff;
+    text-transform: uppercase;
+}
+
+// welcome page
+
+.welcome-page{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    h1{
+        font-size: 2.6rem;
+        line-height: 1.4;
+    }
+    .explore-btn{
+        margin-top: 2rem;
+        padding: .6rem 2.5rem .6rem 1.5rem;
+        border: 1px solid rgba(255,255,255,.4);
+        font-size: 2rem;
+    }
+}
+
+/* Structure components start */
+// header
+// arrows
+// current page
+// desktop menu
+// mobile menu
+/* Structure components start */
+
+
+/* Main components start */
+// australia page
+.content{
+    h1{}
+    .explore-btn{
+        a{}
+    }
+}
+/* Main components end */
+
+/* More components start */
+.more-container{
+    h1{}
+    p{}
+    .gallery{
+        img{}
+    }
+}
+/* More components start */

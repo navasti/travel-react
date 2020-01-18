@@ -8,16 +8,16 @@ const MobileMenu = () => {
             </div>
             <div className="middle-line"></div>
             <div className="contact">
+                <div className="social">
+                    <p>Social media</p>
+                    <i className="fab fa-facebook-f"></i>
+                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-pinterest"></i>
+                    <i className="fab fa-instagram"></i>
+                </div>
                 <div className="mail">
                     <p>Contact</p>
                     <i className="far fa-envelope"></i>
-                </div>
-                <div className="social">
-                    <p>Social media</p>
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-pinterest"></i>
-                    <i class="fab fa-instagram"></i>
                 </div>
             </div>
         </nav>

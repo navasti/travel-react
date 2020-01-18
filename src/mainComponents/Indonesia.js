@@ -7,7 +7,7 @@ import DesktopMenu from '../structureComponents/DesktopMenu';
 import MobileMenu from '../structureComponents/MobileMenu';
 const Indonesia = () => {
     return (
-        <div className="indonesia">
+        <section className="indonesia">
             <MobileMenu/>
             <DesktopMenu/>
             <Header/>
@@ -19,7 +19,7 @@ const Indonesia = () => {
             </div>
             <Arrows/>
             <CurrentPage/>
-        </div>
+        </section>
     )
 }
 

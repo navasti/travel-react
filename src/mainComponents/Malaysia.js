@@ -7,19 +7,19 @@ import DesktopMenu from '../structureComponents/DesktopMenu';
 import MobileMenu from '../structureComponents/MobileMenu';
 const Malaysia = () => {
     return (
-        <div className="malaysia">
+        <section className="malaysia">
             <MobileMenu/>
             <DesktopMenu/>
             <Header/>
             <div className="content">
-                <h1>indonesia</h1>
+                <h1>malaysia</h1>
                 <div className="explore-btn malaysia-btn">
                     <Link to="/more/malaysia">Explore</Link>
                 </div>
             </div>
             <Arrows/>
             <CurrentPage/>
-        </div>
+        </section>
     )
 }
 

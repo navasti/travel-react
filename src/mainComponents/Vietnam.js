@@ -7,7 +7,7 @@ import DesktopMenu from '../structureComponents/DesktopMenu';
 import MobileMenu from '../structureComponents/MobileMenu';
 const Vietnam = () => {
     return (
-        <div className="vietnam">
+        <section className="vietnam">
             <MobileMenu/>
             <DesktopMenu/>
             <Header/>
@@ -19,7 +19,7 @@ const Vietnam = () => {
             </div>
             <Arrows/>
             <CurrentPage/>
-        </div>
+        </section>
     )
 }
 

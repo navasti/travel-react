@@ -1,4 +1,6 @@
 ## Project in progress
+##  Project is not finished yet and I'm aware of that it's not fully optimised. It will be fixed soon. 
+### All photos used in "MoreComponents" were taken by myself. Rest of pictures i downloaded from pixabay.com.
 
 ### CRA
 

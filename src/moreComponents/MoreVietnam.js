@@ -7,7 +7,7 @@ import {TweenMax} from 'gsap';
 const MoreVietnam = () => {
     let section = useRef(null);
     useEffect(()=>{
-        TweenMax.from(section, {duration: 2.5, opacity: 0});
+        TweenMax.fromTo(section, {duration: 2.5, opacity: 0}, {opacity: 1});
     },[]);
     return (
         <div className="more-container" ref={el => {section = el}}>

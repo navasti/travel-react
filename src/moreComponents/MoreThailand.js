@@ -3,11 +3,10 @@ import thailand1 from '../img/thailand1.jpg';
 import thailand2 from '../img/thailand2.jpg';
 import thailand3 from '../img/thailand3.JPG';
 import {TweenMax} from 'gsap';
-// import thailand4 from '../img/thailand4.JPG';
 const MoreThailand = () => {
     let section = useRef(null);
     useEffect(()=>{
-        TweenMax.from(section, {duration: 2.5, opacity: 0});
+        TweenMax.fromTo(section, {duration: 2.5, opacity: 0}, {opacity: 1});
     },[]);
     return (
         <div className="more-container" ref={el => {section = el}}>

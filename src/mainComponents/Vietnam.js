@@ -5,17 +5,23 @@ import Arrows from '../structureComponents/Arrows';
 import CurrentPage from '../structureComponents/CurrentPage';
 import DesktopMenu from '../structureComponents/DesktopMenu';
 import MobileMenu from '../structureComponents/MobileMenu';
-import {TweenMax} from 'gsap';
+import {TweenMax, gsap} from 'gsap';
+import { CSSPlugin } from 'gsap/CSSPlugin'
+
 const Vietnam = () => {
-    const indonesia = "indonesia";
-    const australia = "australia";
-    const vietnam = "vietnam";
+    gsap.registerPlugin(CSSPlugin);
+    const indonesia = "/indonesia";
+    const australia = "/australia";
+    const vietnam = "/vietnam";
     let section = useRef(null);
     useEffect(()=>{
-        TweenMax.from(section, {duration: 2.5, opacity: 0});
+        TweenMax.to(section, {duration: 2.5, opacity: 1});
     },[]);
     return (
-        <section className="vietnam" ref={el => {section = el}}>
+        <section 
+        style={{opacity: 0}}
+        className="vietnam" 
+        ref={el => {section = el}}>
             <MobileMenu/>
             <DesktopMenu/>
             <Header/>

@@ -2,7 +2,6 @@ import React from 'react'
 import australia1 from '../img/australia1.jpg';
 import australia2 from '../img/australia2.JPG';
 import australia3 from '../img/australia3.jpg';
-import australia4 from '../img/australia4.JPG';
 const MoreAustralia = () => {
     return (
         <div className="more-container">
@@ -16,9 +15,6 @@ const MoreAustralia = () => {
                     <img src={australia3} alt='australia3'/>
                 </div>
                 <div className="pic3">
-                    <img src={australia4} alt='australia4'/>
-                </div>
-                <div className="pic4">
                     <img src={australia2} alt='australia2'/>
                 </div>
             </div>

@@ -1,8 +1,7 @@
 import React from 'react'
 import malaysia1 from '../img/malaysia1.JPG';
 import malaysia2 from '../img/malaysia2.jpg';
-import malaysia3 from '../img/malaysia3.jpg';
-import malaysia4 from '../img/malaysia4.jpg';
+import malaysia3 from '../img/malaysia3.JPG';
 const MoreMalaysia = () => {
     return (
         <div className="more-container">
@@ -17,9 +16,6 @@ const MoreMalaysia = () => {
                 </div>
                 <div className="pic3">
                     <img src={malaysia3} alt='malaysia3'/>
-                </div>
-                <div className="pic4">
-                    <img src={malaysia4} alt='malaysia4'/>
                 </div>
             </div>
         </div>

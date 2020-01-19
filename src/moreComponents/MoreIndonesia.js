@@ -1,8 +1,7 @@
 import React from 'react'
-import indonesia1 from '../img/indonesia1.jpg';
+import indonesia1 from '../img/indonesia1.JPG';
 import indonesia2 from '../img/indonesia2.jpg';
-import indonesia3 from '../img/indonesia3.JPG';
-import indonesia4 from '../img/indonesia4.jpg';
+import indonesia3 from '../img/indonesia3.jpg';
 const MoreIndonesia = () => {
     return (
         <div className="more-container">
@@ -13,15 +12,11 @@ const MoreIndonesia = () => {
                     <img src={indonesia1} alt='indonesia1'/>
                 </div>
                 <div className="pic2">
-                    <img src={indonesia3} alt='indonesia3'/>
+                    <img src={indonesia2} alt='indonesia3'/>
                 </div>
                 <div className="pic3">
-                    <img src={indonesia2} alt='indonesia2'/>
-                </div>
-                <div className="pic4">
-                    <img src={indonesia4} alt='indonesia4'/>
-                </div>
-                
+                    <img src={indonesia3} alt='indonesia2'/>
+                </div>  
             </div>
         </div>
     )

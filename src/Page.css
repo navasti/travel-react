@@ -47,7 +47,8 @@ html body section {
 }
 
 .welcome-page {
-  background-color: #222;
+  background: -webkit-gradient(linear, left top, right top, from(#0f2027), to(#203a43));
+  background: linear-gradient(to right, #0f2027, #203a43);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -168,7 +169,8 @@ html body section {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #222;
+  background: -webkit-gradient(linear, left top, right top, from(#0f2027), color-stop(#203a43), to(#2c5364));
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   width: 100%;
   height: 100vh;
   z-index: 2;
@@ -299,7 +301,7 @@ html body section {
 }
 
 .content .explore-btn a {
-  padding: 1.1rem 2rem .8rem 2rem;
+  padding: .6rem 1.5rem .3rem 1.5rem;
 }
 
 /* Main components end */
@@ -316,7 +318,8 @@ html body section {
   padding: 2.5rem 1.5rem;
   line-height: 1.4;
   letter-spacing: 1px;
-  background-color: #222;
+  background: -webkit-gradient(linear, left top, right top, from(#0f2027), color-stop(#203a43), to(#2c5364));
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 
 .more-container h1 {
@@ -333,21 +336,48 @@ html body section {
 .more-container .gallery {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -ms-grid-rows: (auto)[4];
-      grid-template-rows: repeat(4, auto);
-  grid-column-gap: 0px;
-  grid-row-gap: 1.5rem;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
 }
 
 .more-container .gallery img {
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-/* More components start */
+.more-container .gallery .pic1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1 / 6;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+}
+
+.more-container .gallery .pic2 {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-column: 6 / 9;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+}
+
+.more-container .gallery .pic3 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 8;
+  grid-column: 1 / 9;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 / 5;
+}
+
 /* Media queries */
 @media (min-width: 765px) {
   .welcome-page h1 {
@@ -415,9 +445,6 @@ html body section {
     margin-top: 1rem;
     font-size: 3.8rem;
   }
-  .content .explore-btn a {
-    padding: 1rem 2rem .8rem 2rem;
-  }
   .current-page {
     margin-bottom: 2.8rem;
   }
@@ -453,8 +480,44 @@ html body section {
 }
 
 @media (min-width: 1024px) {
+  .welcome-page h1 {
+    letter-spacing: 3px;
+  }
+  .welcome-page .explore-btn:hover {
+    background-color: #0f2027;
+  }
+  .australia {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 6, 15, 0.6)), to(rgba(10, 8, 0, 0.5))), url("./img/australia-desktop.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 6, 15, 0.6), rgba(10, 8, 0, 0.5)), url("./img/australia-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .vietnam {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 6, 15, 0.6)), to(rgba(10, 8, 0, 0.5))), url("./img/vietnam-desktop.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 6, 15, 0.6), rgba(10, 8, 0, 0.5)), url("./img/vietnam-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .malaysia {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 6, 15, 0.6)), to(rgba(10, 8, 0, 0.5))), url("./img/malaysia-desktop.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 6, 15, 0.6), rgba(10, 8, 0, 0.5)), url("./img/malaysia-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .indonesia {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 6, 15, 0.6)), to(rgba(10, 8, 0, 0.5))), url("./img/indonesia-desktop.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 6, 15, 0.6), rgba(10, 8, 0, 0.5)), url("./img/indonesia-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .thailand {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 6, 15, 0.6)), to(rgba(10, 8, 0, 0.5))), url("./img/thailand-desktop.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 6, 15, 0.6), rgba(10, 8, 0, 0.5)), url("./img/thailand-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
   #header .hamburger div {
-    height: 6px;
+    height: 5.5px;
   }
   #header #desktop-tips {
     display: -webkit-box;
@@ -471,18 +534,18 @@ html body section {
   }
   .content .explore-btn {
     margin-top: 1rem;
-    font-size: 3.4rem;
+    font-size: 2.8rem;
   }
   .content .explore-btn a {
-    padding: .8rem 1.5rem .6rem 1.5rem;
+    padding: .5rem 1rem .3rem 1rem;
   }
   .right,
   .left {
-    bottom: 1.6rem;
+    bottom: 1.5rem;
   }
   .right a i,
   .left a i {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
   }
   .current-page {
     margin-bottom: 2.5rem;
@@ -491,7 +554,7 @@ html body section {
     margin: 0 1rem;
   }
   .current-page a i {
-    font-size: 3.2rem;
+    font-size: 2.4rem;
   }
   #mobile-menu {
     display: none;
@@ -507,7 +570,8 @@ html body section {
     -webkit-transform: translateX(-101%);
             transform: translateX(-101%);
     height: 25vh;
-    background-color: #222;
+    background: -webkit-gradient(linear, left top, right top, from(#0f2027), color-stop(#203a43), to(#2c5364));
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -535,6 +599,10 @@ html body section {
   #desktop-menu .contact i {
     font-size: 2.4rem;
     padding: 1rem;
+  }
+  .more-container .gallery {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
   }
 }
 /*# sourceMappingURL=Page.css.map */

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/travel-react/static/css/main.b54175ea.chunk.css",
-    "main.js": "/travel-react/static/js/main.72e564ea.chunk.js",
-    "main.js.map": "/travel-react/static/js/main.72e564ea.chunk.js.map",
+    "main.js": "/travel-react/static/js/main.4f158e8d.chunk.js",
+    "main.js.map": "/travel-react/static/js/main.4f158e8d.chunk.js.map",
     "runtime-main.js": "/travel-react/static/js/runtime-main.28881729.js",
     "runtime-main.js.map": "/travel-react/static/js/runtime-main.28881729.js.map",
     "static/js/2.fa234fec.chunk.js": "/travel-react/static/js/2.fa234fec.chunk.js",
     "static/js/2.fa234fec.chunk.js.map": "/travel-react/static/js/2.fa234fec.chunk.js.map",
     "index.html": "/travel-react/index.html",
-    "precache-manifest.a61dcf747e37bf73d3f67ef91bdde6e8.js": "/travel-react/precache-manifest.a61dcf747e37bf73d3f67ef91bdde6e8.js",
+    "precache-manifest.c065f127acf1e11d993f12b08ad24540.js": "/travel-react/precache-manifest.c065f127acf1e11d993f12b08ad24540.js",
     "service-worker.js": "/travel-react/service-worker.js",
     "static/css/main.b54175ea.chunk.css.map": "/travel-react/static/css/main.b54175ea.chunk.css.map",
     "static/js/2.fa234fec.chunk.js.LICENSE": "/travel-react/static/js/2.fa234fec.chunk.js.LICENSE",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.28881729.js",
     "static/js/2.fa234fec.chunk.js",
     "static/css/main.b54175ea.chunk.css",
-    "static/js/main.72e564ea.chunk.js"
+    "static/js/main.4f158e8d.chunk.js"
   ]
 }

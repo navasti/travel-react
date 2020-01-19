@@ -18,8 +18,8 @@ const Header = () => {
             <div className="bar3"></div>
           </div>
           <div id="desktop-tips">
-            <a href="/travel-react">Plan your trip</a>
-            <a href="/travel-react">Find cheap flights</a>
+            <a href="/australia">Plan your trip</a>
+            <a href="/australia">Find cheap flights</a>
           </div>
         </header>
     )

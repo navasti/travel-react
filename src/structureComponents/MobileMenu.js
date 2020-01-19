@@ -3,8 +3,8 @@ const MobileMenu = () => {
     return (
         <nav id="mobile-menu">
             <div className="mobile-tips">
-                <a href="/">Plan your trip</a>
-                <a href="/">Find cheap flights</a>
+                <a href="/australia">Plan your trip</a>
+                <a href="/australia">Find cheap flights</a>
             </div>
             <div className="middle-line"></div>
             <div className="contact">

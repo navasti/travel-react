@@ -1,13 +1,21 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import Header from '../structureComponents/Header';
 import Arrows from '../structureComponents/Arrows';
 import CurrentPage from '../structureComponents/CurrentPage';
 import DesktopMenu from '../structureComponents/DesktopMenu';
 import MobileMenu from '../structureComponents/MobileMenu';
+import {TweenMax} from 'gsap';
 const Thailand = () => {
+    const malaysia = "malaysia";
+    const indonesia = "indonesia";
+    const thailand = "thailand";
+    let section = useRef(null);
+    useEffect(()=>{
+        TweenMax.from(section, {duration: 2.5, opacity: 0});
+    },[]);
     return (
-        <section className="thailand">
+        <section className="thailand" ref={el => {section = el}}>
             <MobileMenu/>
             <DesktopMenu/>
             <Header/>
@@ -17,8 +25,8 @@ const Thailand = () => {
                     <Link to="/more/thailand">Explore</Link>
                 </div>
             </div>
-            <Arrows/>
-            <CurrentPage/>
+            <Arrows nextPage={malaysia} prevPage={indonesia}/>
+            <CurrentPage current={thailand}/>
         </section>
     )
 }

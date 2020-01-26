@@ -1,7 +1,7 @@
 import React, {useRef, useEffect}  from 'react';
-import indonesia1 from '../img/indonesia1.JPG';
+import indonesia1 from '../img/indonesia1.jpg';
 import indonesia2 from '../img/indonesia2.jpg';
-import indonesia3 from '../img/indonesia3.jpg';
+import indonesia3 from '../img/indonesia3.JPG';
 import {TweenMax} from 'gsap';
 const MoreIndonesia = () => {
     let section = useRef(null);

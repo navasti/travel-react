@@ -5,19 +5,19 @@ class CurrentPage extends Component{
     componentDidMount(){
       const currentA = [...document.querySelectorAll('.current-page a')];
       currentA.forEach(a => a.classList.remove('active'))
-      if(this.props.current === "australia"){
+      if(this.props.current.includes("australia")){
         const filtered = currentA.filter(a => a.href.includes('australia'));
         filtered.forEach(a => a.classList.add('active'))
-      }else if(this.props.current === "vietnam"){
+      }else if(this.props.current.includes("vietnam")){
         const filtered = currentA.filter(a => a.href.includes('vietnam'));
         filtered.forEach(a => a.classList.add('active'))
-      }else if(this.props.current === "indonesia"){
+      }else if(this.props.current.includes("indonesia")){
         const filtered = currentA.filter(a => a.href.includes('indonesia'));
         filtered.forEach(a => a.classList.add('active'))
-      }else if(this.props.current === "thailand"){
+      }else if(this.props.current.includes("thailand")){
         const filtered = currentA.filter(a => a.href.includes('thailand'));
         filtered.forEach(a => a.classList.add('active'))
-      }else if(this.props.current === "malaysia"){
+      }else if(this.props.current.includes("malaysia")){
         const filtered = currentA.filter(a => a.href.includes('malaysia'));
         filtered.forEach(a => a.classList.add('active'))
       }

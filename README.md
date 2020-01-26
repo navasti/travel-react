@@ -1,5 +1,5 @@
-## Project in progress
-##  Project is not finished yet and I'm aware of that it's not fully optimised. It will be fixed soon. 
+## This project is a website about popular travel destinations whitch was written in React.
+## For opacity animations I used gsap library and useRef & useEffect hooks.
 ### All photos used in "MoreComponents" were taken by myself. Rest of pictures i downloaded from pixabay.com.
 
 ### CRA

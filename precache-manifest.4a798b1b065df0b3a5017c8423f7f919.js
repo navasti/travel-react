@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2cbd6b8f6070e1c5721b1c1e306a9c2",
+    "revision": "af79d28b11dfe056e264e171c6426a81",
     "url": "/travel-react/index.html"
   },
   {
-    "revision": "c4485d2054c8249ba01a",
-    "url": "/travel-react/static/css/main.19fcd8f6.chunk.css"
+    "revision": "91428352128b7a43bcfd",
+    "url": "/travel-react/static/css/main.a00a04b9.chunk.css"
   },
   {
-    "revision": "06b4cbb738f3993ff956",
-    "url": "/travel-react/static/js/2.fa234fec.chunk.js"
+    "revision": "5e05b4ac9a4d972a5f2a",
+    "url": "/travel-react/static/js/2.9ad50ff9.chunk.js"
   },
   {
-    "revision": "020912c68fda4ce62e7cf822cbe5bebb",
-    "url": "/travel-react/static/js/2.fa234fec.chunk.js.LICENSE"
+    "revision": "973b0157c75ad00a2bf6d9ba8bf3685b",
+    "url": "/travel-react/static/js/2.9ad50ff9.chunk.js.LICENSE"
   },
   {
-    "revision": "c4485d2054c8249ba01a",
-    "url": "/travel-react/static/js/main.46585b77.chunk.js"
+    "revision": "91428352128b7a43bcfd",
+    "url": "/travel-react/static/js/main.fa011f48.chunk.js"
   },
   {
     "revision": "ea2bedf8c644ab0e48f5",
@@ -53,7 +53,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "fb581a905f504d7580e1707f70a75a14",
-    "url": "/travel-react/static/media/indonesia1.fb581a90.JPG"
+    "url": "/travel-react/static/media/indonesia1.fb581a90.jpg"
   },
   {
     "revision": "870653a64c78557cbabbd9d63244ec07",
@@ -61,7 +61,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "82a96a5204a7284f07fffeeca4be1175",
-    "url": "/travel-react/static/media/indonesia3.82a96a52.jpg"
+    "url": "/travel-react/static/media/indonesia3.82a96a52.JPG"
   },
   {
     "revision": "4f810ecfb987fd9015526c80ab502273",
@@ -81,7 +81,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "f10270c4e81eebfd69cbdb1c17e0515f",
-    "url": "/travel-react/static/media/malaysia3.f10270c4.JPG"
+    "url": "/travel-react/static/media/malaysia3.f10270c4.jpg"
   },
   {
     "revision": "c328b71318fff58464dbf503e31fc411",
@@ -101,7 +101,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "785a8f8e22b566d64d969666139728c8",
-    "url": "/travel-react/static/media/thailand3.785a8f8e.JPG"
+    "url": "/travel-react/static/media/thailand3.785a8f8e.jpg"
   },
   {
     "revision": "f6938dcc0b4337b42cb2cb9ba831f59e",

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/travel-react/static/css/main.a00a04b9.chunk.css",
-    "main.js": "/travel-react/static/js/main.fa011f48.chunk.js",
-    "main.js.map": "/travel-react/static/js/main.fa011f48.chunk.js.map",
+    "main.css": "/travel-react/static/css/main.ddd6fede.chunk.css",
+    "main.js": "/travel-react/static/js/main.38335b19.chunk.js",
+    "main.js.map": "/travel-react/static/js/main.38335b19.chunk.js.map",
     "runtime-main.js": "/travel-react/static/js/runtime-main.28881729.js",
     "runtime-main.js.map": "/travel-react/static/js/runtime-main.28881729.js.map",
     "static/js/2.9ad50ff9.chunk.js": "/travel-react/static/js/2.9ad50ff9.chunk.js",
     "static/js/2.9ad50ff9.chunk.js.map": "/travel-react/static/js/2.9ad50ff9.chunk.js.map",
     "index.html": "/travel-react/index.html",
-    "precache-manifest.4a798b1b065df0b3a5017c8423f7f919.js": "/travel-react/precache-manifest.4a798b1b065df0b3a5017c8423f7f919.js",
+    "precache-manifest.a987a1c0ad7bc1656499d9cd63722c2f.js": "/travel-react/precache-manifest.a987a1c0ad7bc1656499d9cd63722c2f.js",
     "service-worker.js": "/travel-react/service-worker.js",
-    "static/css/main.a00a04b9.chunk.css.map": "/travel-react/static/css/main.a00a04b9.chunk.css.map",
+    "static/css/main.ddd6fede.chunk.css.map": "/travel-react/static/css/main.ddd6fede.chunk.css.map",
     "static/js/2.9ad50ff9.chunk.js.LICENSE": "/travel-react/static/js/2.9ad50ff9.chunk.js.LICENSE",
-    "static/media/Page.css": "/travel-react/static/media/vietnam-mobile.dac43c8d.jpg",
+    "static/media/Page.css": "/travel-react/static/media/vietnam-mobile.f4fdebc5.jpg",
     "static/media/australia1.jpg": "/travel-react/static/media/australia1.17c10544.jpg",
     "static/media/australia2.JPG": "/travel-react/static/media/australia2.28002a77.JPG",
     "static/media/australia3.jpg": "/travel-react/static/media/australia3.5fb5f399.jpg",
@@ -20,7 +20,7 @@
     "static/media/indonesia2.jpg": "/travel-react/static/media/indonesia2.870653a6.jpg",
     "static/media/indonesia3.JPG": "/travel-react/static/media/indonesia3.82a96a52.JPG",
     "static/media/malaysia1.JPG": "/travel-react/static/media/malaysia1.ca2e0a59.JPG",
-    "static/media/malaysia2.jpg": "/travel-react/static/media/malaysia2.c5070715.jpg",
+    "static/media/malaysia2.jpg": "/travel-react/static/media/malaysia2.ce0dc255.jpg",
     "static/media/malaysia3.jpg": "/travel-react/static/media/malaysia3.f10270c4.jpg",
     "static/media/thailand1.jpg": "/travel-react/static/media/thailand1.16cdb81c.jpg",
     "static/media/thailand2.jpg": "/travel-react/static/media/thailand2.60bf482c.jpg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.28881729.js",
     "static/js/2.9ad50ff9.chunk.js",
-    "static/css/main.a00a04b9.chunk.css",
-    "static/js/main.fa011f48.chunk.js"
+    "static/css/main.ddd6fede.chunk.css",
+    "static/js/main.38335b19.chunk.js"
   ]
 }

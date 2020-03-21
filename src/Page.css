@@ -57,15 +57,18 @@ html body section {
 }
 
 .welcome-page h1 {
-  font-size: 2.6rem;
+  font-size: 3rem;
   line-height: 1.4;
+  font-weight: normal;
 }
 
 .welcome-page .explore-btn {
   margin-top: 2rem;
-  padding: .9rem 2.5rem .6rem 1.5rem;
+  padding: .9rem 3rem .6rem 2rem;
   border: 1px solid rgba(255, 255, 255, 0.4);
   font-size: 2rem;
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
 }
 
 /* Structure components start */
@@ -299,6 +302,8 @@ html body section {
   font-size: 2.4rem;
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
 }
 
 .content .explore-btn a {
@@ -387,8 +392,8 @@ html body section {
   }
   .welcome-page .explore-btn {
     margin-top: 2.5rem;
-    padding: 1rem 3.5rem .8rem 2rem;
-    font-size: 3.2rem;
+    padding: .5rem 3.5rem .3rem 2rem;
+    font-size: 3rem;
   }
   #mobile-menu .mobile-tips {
     margin-top: 6rem;
@@ -443,7 +448,6 @@ html body section {
     letter-spacing: 5px;
   }
   .content .explore-btn {
-    margin-top: 1rem;
     font-size: 3.8rem;
   }
   .current-page {
@@ -538,7 +542,7 @@ html body section {
     font-size: 2.8rem;
   }
   .content .explore-btn a {
-    padding: .5rem 1rem .3rem 1rem;
+    padding: .5rem 2.5rem .3rem 2.5rem;
   }
   .right,
   .left {
@@ -635,6 +639,12 @@ html body section {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2 / 3;
+  }
+}
+
+@media (min-width: 1260px) {
+  .welcome-page h1 {
+    font-size: 4.4rem;
   }
 }
 /*# sourceMappingURL=Page.css.map */

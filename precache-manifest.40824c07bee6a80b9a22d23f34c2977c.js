@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78acbfc72385ec26ea834e3a9ca6630e",
+    "revision": "1dc7064a2d8083b05950d896aff013e0",
     "url": "/travel-website/index.html"
   },
   {
-    "revision": "2846f19d0d0355cbd7b6",
-    "url": "/travel-website/static/css/main.a654e628.chunk.css"
+    "revision": "3d1f702fd2d11f917d73",
+    "url": "/travel-website/static/css/main.e28b64a8.chunk.css"
   },
   {
     "revision": "1ed028ea90ada17c84e7",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/travel-website/static/js/2.ac1957cd.chunk.js.LICENSE"
   },
   {
-    "revision": "2846f19d0d0355cbd7b6",
+    "revision": "3d1f702fd2d11f917d73",
     "url": "/travel-website/static/js/main.6bf18011.chunk.js"
   },
   {

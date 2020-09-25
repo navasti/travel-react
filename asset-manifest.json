@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/travel-website/static/css/main.e28b64a8.chunk.css",
-    "main.js": "/travel-website/static/js/main.6bf18011.chunk.js",
-    "main.js.map": "/travel-website/static/js/main.6bf18011.chunk.js.map",
+    "main.css": "/travel-website/static/css/main.2f00012e.chunk.css",
+    "main.js": "/travel-website/static/js/main.26f920a9.chunk.js",
+    "main.js.map": "/travel-website/static/js/main.26f920a9.chunk.js.map",
     "runtime-main.js": "/travel-website/static/js/runtime-main.5780bd55.js",
     "runtime-main.js.map": "/travel-website/static/js/runtime-main.5780bd55.js.map",
     "static/js/2.ac1957cd.chunk.js": "/travel-website/static/js/2.ac1957cd.chunk.js",
     "static/js/2.ac1957cd.chunk.js.map": "/travel-website/static/js/2.ac1957cd.chunk.js.map",
     "index.html": "/travel-website/index.html",
-    "precache-manifest.40824c07bee6a80b9a22d23f34c2977c.js": "/travel-website/precache-manifest.40824c07bee6a80b9a22d23f34c2977c.js",
+    "precache-manifest.f52222c1b066789a61d59cd293a9f0dd.js": "/travel-website/precache-manifest.f52222c1b066789a61d59cd293a9f0dd.js",
     "service-worker.js": "/travel-website/service-worker.js",
-    "static/css/main.e28b64a8.chunk.css.map": "/travel-website/static/css/main.e28b64a8.chunk.css.map",
+    "static/css/main.2f00012e.chunk.css.map": "/travel-website/static/css/main.2f00012e.chunk.css.map",
     "static/js/2.ac1957cd.chunk.js.LICENSE": "/travel-website/static/js/2.ac1957cd.chunk.js.LICENSE",
     "static/media/Page.css": "/travel-website/static/media/vietnam-mobile.f4fdebc5.jpg",
     "static/media/australia1.jpg": "/travel-website/static/media/australia1.17c10544.jpg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.5780bd55.js",
     "static/js/2.ac1957cd.chunk.js",
-    "static/css/main.e28b64a8.chunk.css",
-    "static/js/main.6bf18011.chunk.js"
+    "static/css/main.2f00012e.chunk.css",
+    "static/js/main.26f920a9.chunk.js"
   ]
 }
